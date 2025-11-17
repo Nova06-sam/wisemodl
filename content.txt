@@ -1,0 +1,67 @@
+🧩 Designing Next-Gen Interfaces: UI/UX for AI & Future Tech Products
+Duration: 15 Days | Live Online | 1.5 Hours/Day
+Mode: Hands-on & Interactive
+Start Date: [Add date here]
+Community Access: Slack/Discord Group
+🚀Program Objectives
+This bootcamp will help you:
+✅ Learn the end-to-end UX process from idea to prototype
+✅ Design user-first AI or SaaS interfaces using industry tools
+✅ Build a Figma prototype of a real-world application
+✅ Get ready to transition into product development (Full Stack 4.0)
+✅Prerequisites to Join
+Area	Requirement
+Tech Skills	No coding required. Basic computer usage is enough.
+Design Knowledge	No prior UI/UX experience needed. We’ll start from scratch.
+Hardware	Laptop/Desktop with stable internet
+Software/Accounts	- Figma (Free account)- Google account (for Docs/Sheets)- Slack/Discord (for community access)
+Commitment	1.5 hours daily for sessions + 30 mins self-work (optional)
+
+
+🧰 Tools You’ll Be Using
+Tool	Purpose
+Figma	UI design, wireframing, prototyping
+Miro / Whimsical (optional)	Brainstorming, journey mapping
+Google Docs/Slides	Worksheets, presentations
+Slack/Discord	Community, updates, peer feedback
+🗓️ Daily Routine
+Time	What Happens
+Session Start	5–10 mins: Recap + Concept Introduction
+Mid-Session	30 mins: Hands-on demo (in Figma or activity)
+End of Session	20–30 mins: Task briefing + Q&A
+Post-Session	Optional: Complete activity, share in community group
+🧪 Learning by Doing
+Every session comes with:
+●	🎯 A mini-task or challenge
+●	📝 Templates or worksheets
+●	🔁 Peer Review/Feedback (Mid & Final Week)
+●	📣 Live Showcase Day (Final Presentation)
+ 
+🧠 Project Tracks You Can Choose
+Pick a track based on your interest from Day 3:
+Track A: AI Product	Track B: Non-AI SaaS
+Example: AI Study Assistant, Resume Builder	Example: Budget Tracker, Task Manager
+Focus: Conversational UI, transparency, trust	Focus: Usability, dashboard design
+📌What You’ll Get by the End
+Outcome	Description
+🎨 Portfolio-Ready Project	A working Figma prototype (AI/SaaS)
+📄 Dev-Handoff Ready Files	Annotated UI with assets for developers
+🧰 UX Toolkit	Templates: Persona, Journey Map, Audit Sheet
+🏆 Certificate	Wrench Wise UI/UX Bootcamp Certificate
+🚀 Progression Path	Access to Full Stack 4.0 Program Preview
+🙌Community Guidelines
+To make the most of this program:
+●	💬 Participate actively in the community
+●	🕐 Be punctual – live sessions are highly interactive
+●	🙋‍♀️ Ask questions – no question is too basic
+●	💡 Share your work – feedback helps everyone grow
+●	🤝 Help others – it's how design teams work in the real world
+🎁Bonus Resources (Optional)
+●	🎥 Recordings: Access for 30 days post bootcamp
+●	💼 Career Tips: Portfolio building + UX job landscape
+●	🧠 Webinars: “How to transition from design to development”
+📣 What’s Next?
+After 15 days, you’ll be ready to turn your designs into real applications.
+ You can seamlessly continue your journey with our flagship program:
+🎓Full Stack 4.0: Code the Products You Just Designed
+👉 Includes AI, DevOps, Cloud, Cybersecurity & more!
