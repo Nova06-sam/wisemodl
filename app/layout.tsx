@@ -42,8 +42,104 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
     apple: "/logo.png",
   },
-    generator: 'v0.app'
+  generator: 'v0.app'
 }
+
+// CSS as template literal for inline styles (not recommended but works)
+const animationStyles = `
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-in-left {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slide-in-right {
+    from {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 20px rgba(168, 85, 247, 0.4); }
+    50% { box-shadow: 0 0 40px rgba(168, 85, 247, 0.8); }
+  }
+  
+  .animate-fade-in-up {
+    animation: fade-in-up 0.8s ease-out forwards;
+  }
+  
+  .animate-slide-in-left {
+    animation: slide-in-left 0.8s ease-out forwards;
+  }
+  
+  .animate-slide-in-right {
+    animation: slide-in-right 0.8s ease-out forwards;
+  }
+  
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+  
+  .animation-delay-300 {
+    animation-delay: 0.3s;
+    opacity: 0;
+  }
+  
+  .animation-delay-600 {
+    animation-delay: 0.6s;
+    opacity: 0;
+  }
+  
+  .animation-delay-900 {
+    animation-delay: 0.9s;
+    opacity: 0;
+  }
+  
+  .animation-delay-1200 {
+    animation-delay: 1.2s;
+    opacity: 0;
+  }
+  
+  .animation-delay-1500 {
+    animation-delay: 1.5s;
+    opacity: 0;
+  }
+  
+  .animation-delay-1800 {
+    animation-delay: 1.8s;
+    opacity: 0;
+  }
+`
 
 export default function RootLayout({
   children,
@@ -53,100 +149,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <style>{`
-          @keyframes fade-in-up {
-            from {
-              opacity: 0;
-              transform: translateY(30px);
-            }
-            to {
-              opacity: 1;
-              transform: translateY(0);
-            }
-          }
-          
-          @keyframes slide-in-left {
-            from {
-              opacity: 0;
-              transform: translateX(-30px);
-            }
-            to {
-              opacity: 1;
-              transform: translateX(0);
-            }
-          }
-          
-          @keyframes slide-in-right {
-            from {
-              opacity: 0;
-              transform: translateX(30px);
-            }
-            to {
-              opacity: 1;
-              transform: translateX(0);
-            }
-          }
-          
-          @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-20px); }
-          }
-          
-          @keyframes pulse-glow {
-            0%, 100% { box-shadow: 0 0 20px rgba(168, 85, 247, 0.4); }
-            50% { box-shadow: 0 0 40px rgba(168, 85, 247, 0.8); }
-          }
-          
-          .animate-fade-in-up {
-            animation: fade-in-up 0.8s ease-out forwards;
-          }
-          
-          .animate-slide-in-left {
-            animation: slide-in-left 0.8s ease-out forwards;
-          }
-          
-          .animate-slide-in-right {
-            animation: slide-in-right 0.8s ease-out forwards;
-          }
-          
-          .animate-float {
-            animation: float 6s ease-in-out infinite;
-          }
-          
-          .animate-pulse-glow {
-            animation: pulse-glow 2s ease-in-out infinite;
-          }
-          
-          .animation-delay-300 {
-            animation-delay: 0.3s;
-            opacity: 0;
-          }
-          
-          .animation-delay-600 {
-            animation-delay: 0.6s;
-            opacity: 0;
-          }
-          
-          .animation-delay-900 {
-            animation-delay: 0.9s;
-            opacity: 0;
-          }
-          
-          .animation-delay-1200 {
-            animation-delay: 1.2s;
-            opacity: 0;
-          }
-          
-          .animation-delay-1500 {
-            animation-delay: 1.5s;
-            opacity: 0;
-          }
-          
-          .animation-delay-1800 {
-            animation-delay: 1.8s;
-            opacity: 0;
-          }
-        `}</style>
+        <style dangerouslySetInnerHTML={{ __html: animationStyles }} />
       </head>
       <body className={inter.className}>{children}</body>
     </html>

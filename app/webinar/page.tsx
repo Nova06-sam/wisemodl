@@ -1,3 +1,4 @@
+"use client"
 import WebinarClientPage from "./WebinarClientPage"
 
 export const metadata = {

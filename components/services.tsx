@@ -1,3 +1,4 @@
+"use client"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Wrench, Car, Zap, Shield, Gauge, Cog } from "lucide-react"
 
